@@ -1,0 +1,14 @@
+/* More color variables */
+$main-color-var: #3D3D3D;
+$background-color-var: #6D6D6D;
+
+body {
+	color: $main-color-var;
+	background-color: $background_color_var;
+}
+h2 {
+	background-color: $background_color_var;
+}
+p {
+	color: $main-color-var;
+}
