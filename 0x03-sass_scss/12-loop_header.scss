@@ -1,0 +1,7 @@
+/* Set font size through loop */
+$sizes: 5;
+@for $i from 1 through $sizes {
+	h#{$i} {
+		font-size: #{$i}px;
+	}
+}

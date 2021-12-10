@@ -1,0 +1,12 @@
+/* Mixy Mix-ins */
+@mixin margins-for-tags($property, $margin-size) {
+	#{$property}: $margin-size;
+}
+body {
+	@include margins-for-tags(margin-left, 10px);
+	@include margins-for-tags(margin-right, 10px);
+}
+div {
+	@include margins-for-tags(margin-left, 15px);
+	@include margins-for-tags(margin-right, 15px);
+}

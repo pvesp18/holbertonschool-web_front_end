@@ -1,0 +1,7 @@
+/* Generates column and assigns size through 4 */
+$types: 4;
+@for $i from 1 through $types {
+	.col-#{$i} {
+		width: percentage(1/$i);
+	}
+}
